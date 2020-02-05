@@ -1,0 +1,20 @@
+<!--
+ Copyright (c) 2014, 2019, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+ -->
+ <div class="oj-hybrid-padding">
+    <h1>Grafic cu cele mai citite carti in functie de varsta</h1>
+    <h3>Daca nu stii ce carte sa alegi din biblioteca noastra, iti prezentam un grafic cu cele mai citite carti in functie de varsta.</h3>
+    <div>
+      <oj-chart id="barChart"
+      type="bar" 
+      orientation="[[orientationValue]]"
+      stack="[[stackValue]]"
+      series="[[barSeriesValue]]"           
+      groups="[[barGroupsValue]]" 
+      animation-on-display="auto"
+      animation-on-data-change="auto"
+      hover-behavior="dim"
+      style="max-width:500px;width:100%;height:350px;">
+  </oj-chart>
+    </div>
